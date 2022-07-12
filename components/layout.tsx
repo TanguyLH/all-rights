@@ -7,7 +7,12 @@ import Image from 'next/image';
 const name = "Tanguy Le Henaff";
 export const siteTitle = "Next.js Sample Website";
 
-export default function Layout({ children, home } : Object) {
+interface ILayoutProps {
+  home: boolean,
+  children: JSX.Element
+}
+
+export default function Layout({ children, home } : ILayoutProps) : JSX.Element {
     return (
         <div className={styles.container}>
             <Head>
@@ -66,5 +71,5 @@ export default function Layout({ children, home } : Object) {
                 </div>
             )}
         </div>
-        )
+        );
 }

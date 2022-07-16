@@ -14,7 +14,7 @@ export default function firstPost() {
                     First Post
                 </h1>
                 <h2 className="title">
-                    Let's go{' '}
+                    Let&apos;s go{' '}
                     <Link href="/">
                         <a>back home</a>
                     </Link>

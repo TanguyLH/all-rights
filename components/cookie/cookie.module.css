@@ -1,0 +1,16 @@
+.cookieContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: white;
+  border: 0em;
+}
+
+.image {
+  cursor: pointer;
+  width: 10vw;
+}

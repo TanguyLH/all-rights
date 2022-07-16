@@ -1,0 +1,22 @@
+.container {
+    padding: 0 1rem;
+    margin: 0;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar {
+    font-size: 1.5rem;
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+    box-sizing: inherit;
+}

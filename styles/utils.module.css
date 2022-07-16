@@ -38,9 +38,12 @@
 }
 
 .list {
+  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .listItem {
@@ -53,4 +56,8 @@
 
 .bold {
   font-weight: bold;
+}
+
+.center {
+  justify-content: center;
 }

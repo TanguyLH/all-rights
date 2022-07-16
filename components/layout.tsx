@@ -30,7 +30,7 @@ export default function Layout({ children, home } : ILayoutProps) : JSX.Element 
                     <>
                         <Image 
                             priority 
-                            src="/images/profile.jpg"
+                            src="/images/photo_de_profil_CV_square.png"
                             className={utilStyles.borderCircle}
                             height={144}
                             width={144}

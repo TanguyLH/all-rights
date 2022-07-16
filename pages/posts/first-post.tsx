@@ -5,8 +5,8 @@ import Head from 'next/head';
 
 export default function firstPost() {
     return(
-        <>
-            <Layout>
+        <Layout home>
+            <>
                 <Head>
                     <title>First Post</title>
                 </Head>
@@ -19,7 +19,7 @@ export default function firstPost() {
                         <a>back home</a>
                     </Link>
                 </h2>
-            </Layout>
-        </>
+            </>
+        </Layout>
     );
 }
